@@ -16,7 +16,7 @@ func TestTerraform(t *testing.T) {
 
 	// Bucket name
 	bucketName := "s3b-flugel"
-	region := "us-east-1"
+	region := "us-east-2"
 
 	// Construct the terraform options with default retryable errors to handle the most common
 	// retryable errors in terraform testing.
